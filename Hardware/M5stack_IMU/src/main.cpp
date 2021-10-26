@@ -1,5 +1,8 @@
+#define M5STACK_MPU6886
+
 #include <M5Stack.h>
 #include <WiFiClientSecure.h>
+#include <utility/MahonyAHRS.h>
 
 /*送信関係の変数*/
 const char* ssid     = "*******";   // your network SSID (name of wifi network)
@@ -15,6 +18,15 @@ String postValues(String values_to_post);
 void connectingWiFi();
 void LcdInit();
 
+/*IMU関連*/
+//IMU関連の変数
+float accX = 0.0F;
+float accY = 0.0F;
+float accZ = 0.0F;
+
+float XY_acc = 0.0F;//XY方向の加速度
+
+
 
 void setup() {
   // put your setup code here, to run once:
@@ -24,21 +36,24 @@ void setup() {
   delay(1000);
   client.setInsecure();
   connectingWiFi();
+  values = "20211025,data,2"; //ファイル名、シート名、データ列数、
+  values += "accZ,XY_acc";     //以後データ本体
+  String response = postValues(values);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+  M5.update();
   M5.Lcd.print("MainLoop\n");
   //LcdInit();
-  values = "20211011,data,3,";   //ファイル名、シート名、データ列数、
-  values += "1,10,20, 2, 12, 28, 3, 20, 30";     //以後データ本体
+  M5.IMU.getAccelData(&accX,&accY,&accZ); //加速度の取得
+  XY_acc = sqrt((accX * accX) + (accY * accY));
+  values = "20211025,data,2," + accZ + "," + XY_acc + ",";    //以後データ本体
   String response = postValues(values);
   //LcdInit();
   M5.Lcd.print("Response : ");
   M5.Lcd.println(response);
-  delay(1000);
-  WiFi.disconnect();
-  while(1);
+  
 }
 
 String postValues(String values_to_post) {
