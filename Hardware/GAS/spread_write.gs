@@ -5,7 +5,6 @@ function doPost(e){
   var fileName = ary[0];//aryの最初はファイル名(SpreadSheet)
   var sheetName = ary[1];//次にシート名
   var n_of_colms = ary[2];//次に項目数(列数)
-  //var folder = DriveApp.getFolderById('1jd-FvvbvCZi3BF4uC-lkVG8DhHKwlP9I');//作業フォルダは固定にする:ここにフォルダIDを記入
   var folder = DriveApp.getFolderById('*****');//作業フォルダは固定にする:ここにフォルダIDを記入
  
  
