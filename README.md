@@ -1,6 +1,6 @@
 # HEALTH Chair（ヘルスチェアー）
 
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2021/07/JPHACKS2021_ogp.jpg)](https://www.youtube.com/watch?v=LUPQFB4QyVo)
+![IMAGE ALT TEXT HERE](https://cdn.discordapp.com/attachments/889072819584008228/903646494647787550/aac43b34386cfe67.jpg)
 
 ## 製品概要
 ### 背景(製品開発のきっかけ、課題等）
