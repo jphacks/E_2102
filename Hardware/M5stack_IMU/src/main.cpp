@@ -46,7 +46,7 @@ const char* ssid     = "******";   // your network SSID (name of wifi network)
 const char* password = "******";    // your network password
 
 const char* host = "script.google.com";
-String exec_url = "https://script.google.com/macros/s/AKfycbz4jOQbSnlKubco-qDjqb4UZw3MzxO1fchQvS5Djm4nONQ4iwWK/exec";
+String exec_url = "https://script.google.com/macros/s/*****/exec";
 //ウェブアプリケーションのURL
  
 WiFiClientSecure client;
