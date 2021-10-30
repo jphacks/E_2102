@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/54675248/139527549-67bbaed0-d1a5-46e6-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/38782966/139522775-97a3f5ba-39bc-44f8-979b-14b68d69d9bc.JPG" width="320px" >
 </p>
-<p align="center">Health chairのハード側の全体写真</p>
+<p align="center">Health Chairのハード側の全体写真</p>
 
 椅子に取り付けられたセンサから利用者のデスクワーク状況を通知するLINEBotを作成しました。 椅子の手摺りに9軸センサ（M5Stack）、クッションには圧力センサ（FSR）が設置されており、それらのセンサから利用者が一日にどれぐらい椅子に座っているか、デスクワークに集中しているかを取得して、グラフをLINEBotで利用者に通知することで、適度な休憩を促すようにしました。
 
