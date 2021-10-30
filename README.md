@@ -1,4 +1,4 @@
-# HEALTH Chair（ヘルスチェアー）
+# Health Chair（ヘルスチェアー）
 
 ![IMAGE ALT TEXT HERE](https://cdn.discordapp.com/attachments/889072819584008228/903646494647787550/aac43b34386cfe67.jpg)
 
