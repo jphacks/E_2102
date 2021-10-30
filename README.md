@@ -12,14 +12,16 @@ https://user-images.githubusercontent.com/54675248/139527549-67bbaed0-d1a5-46e6-
 
 
 ### 製品説明（具体的な製品の説明）
-<img src="https://user-images.githubusercontent.com/38782966/139522775-97a3f5ba-39bc-44f8-979b-14b68d69d9bc.JPG" width="320px">  
+<center><img src="https://user-images.githubusercontent.com/38782966/139522775-97a3f5ba-39bc-44f8-979b-14b68d69d9bc.JPG" width="320px alt="属性"></center>
+<center>Health chairのハード側の全体写真</center>
 
 椅子に取り付けられたセンサから利用者のデスクワーク状況を通知するLINEBotを作成しました。 椅子の手摺りには9軸センサ（M5Stack）、クッションには圧力センサ（FSR）が設置されており、それらから利用者が一日にどれぐらい椅子に座っているか、デスクワークに集中しているかを取得して、グラフをLINEBotで利用者に通知することで、適度な休憩を促すようにしました。
 
 ### 特長
 #### 特長1　圧力センサで着席を検知し、座っている椅子の動きを計測することで、その日の作業時間や集中力をLINEBotから送られるグラフで知ることができます。
 
-<img src="https://user-images.githubusercontent.com/38782966/139522488-fcbb11b6-5612-4111-a9c1-b8aa62745c6f.jpg" width="320px">  
+<center><img src="https://user-images.githubusercontent.com/38782966/139522488-fcbb11b6-5612-4111-a9c1-b8aa62745c6f.jpg" width="320px alt="属性"></center>
+<center>LINEbotからのグラフが送信された様子</center>
 
 青色の帯：着席時間  
 赤色の折れ線グラフ：椅子の動き（椅子の移動、回転）から判定した集中力
