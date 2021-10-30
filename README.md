@@ -10,6 +10,7 @@ COVID-19後のリモートワークの推奨に伴い、近年、人々のデス
 
 https://user-images.githubusercontent.com/54675248/139527549-67bbaed0-d1a5-46e6-adcf-5a5dbde73ffa.mov
 
+
 ### 製品説明（具体的な製品の説明）
 <img src="https://user-images.githubusercontent.com/38782966/139522775-97a3f5ba-39bc-44f8-979b-14b68d69d9bc.JPG" width="320px">  
 
