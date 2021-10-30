@@ -20,6 +20,7 @@ https://user-images.githubusercontent.com/54675248/139527549-67bbaed0-d1a5-46e6-
 #### 特長1　圧力センサで着席を検知し、利用者が座っている椅子の動きを計測することで、その日の集中力をLINEBotに送信されたグラフから知ることができます。
 
 <img src="https://user-images.githubusercontent.com/38782966/139522488-fcbb11b6-5612-4111-a9c1-b8aa62745c6f.jpg" width="320px">  
+
 青色の帯：着席時間  
 赤色の折れ線グラフ：椅子の動き（椅子の移動、回転）から判定した集中力
 
