@@ -30,7 +30,7 @@ COVID-19後のリモートワークの推奨に伴い、近年、人々のデス
 * デバイス間の配線や椅子への設置を簡潔化するために，3Dプリンタでコンテナを作成した点．
 
 ## 開発技術
-![IMAGE ALT TEXT HERE](https://media.discordapp.net/attachments/889072819584008226/903827375995879444/644522b603de71b6.JPG)
+![IMAGE ALT TEXT HERE](https://media.discordapp.net/attachments/889072819584008226/903834763591307394/3bbf631aca985629.JPG)
 ### 活用した技術
 #### API・データ
 * M5Stackから取得されるx・y軸加速度値，
